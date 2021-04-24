@@ -1,0 +1,9 @@
+{
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Args": ["--max--line--lenght=150"],
+    "python.formatting.provider": "black",
+
+
+    "python.pythonPath": "/Users/jyr/.local/share/virtualenvs/django_test-E2NgLu0u/bin/python"
+}
