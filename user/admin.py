@@ -1,3 +1,11 @@
 from django.contrib import admin
+from . import models
 
-# Register your models here.
+
+@admin.register(models.UsersModel)
+class UsersAdmin(admin.ModelAdmin):
+    list_display = (
+        "title",
+        "displayUser",
+    )
+    raw_id_fields = ("author",)
