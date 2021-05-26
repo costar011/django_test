@@ -41,6 +41,7 @@ DJANGO_APPS = [
 
 PROJECT_APPS = [
     "user.apps.UserConfig",
+    "doc_boards.apps.DocBoardsConfig",
 ]
 
 INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS
