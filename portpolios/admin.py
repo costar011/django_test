@@ -1,3 +1,13 @@
 from django.contrib import admin
+from . import models
 
-# Register your models here.
+
+@admin.register(models.PortPolioModel)
+class PortPolioAdmin(admin.ModelAdmin):
+
+    list_display = (
+        "title",
+        "url",
+    )
+
+    filter_horizontal = ("participants",)
