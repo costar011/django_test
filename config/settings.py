@@ -28,6 +28,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+TAILWIND_APP_NAME = "test"
+
 
 # Application definition
 
@@ -39,12 +41,11 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "tailwind",
-]
-
-PROJECT_APPS = [
+    "test",
     "user.apps.UserConfig",
     "doc_boards.apps.DocBoardsConfig",
     "portpolios.apps.PortpoliosConfig",
+    "core.apps.CoreConfig",
 ]
 
 
