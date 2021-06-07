@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     "test",
     "user.apps.UserConfig",
     "doc_boards.apps.DocBoardsConfig",
-    "portpolios.apps.PortpoliosConfig",
     "core.apps.CoreConfig",
 ]
 
